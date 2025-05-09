@@ -1,8 +1,8 @@
 
 import React from 'react';
 import MovieCard from './MovieCard';
-import { Movie } from '@/services/tmdb';
-import { Button } from '@/components/ui/button';
+import { type Movie } from '../services/tmdb';
+import { Button } from '../components/ui/button';
 
 interface MovieGridProps {
   movies: Movie[];

@@ -1,11 +1,11 @@
 
 import React from 'react';
 import { Link } from 'react-router-dom';
-import { Card } from '@/components/ui/card';
-import { Button } from '@/components/ui/button';
-import { Movie } from '@/services/tmdb';
-import tmdbApi from '@/services/tmdb';
-import { useMovies } from '@/contexts/MovieContext';
+import { Card } from '../components/ui/card';
+import { Button } from '../components/ui/button';
+import type { Movie } from '../services/tmdb';
+import tmdbApi from '../services/tmdb';
+import { useMovies } from '../contexts/MovieContext';
 
 interface MovieCardProps {
   movie: Movie;
