@@ -1,6 +1,6 @@
 
 import React, { createContext, useContext, useState, useEffect } from 'react';
-import tmdbApi, { Movie, MoviesResponse } from '../services/tmdb';
+import tmdbApi, { type Movie, type MoviesResponse } from '../services/tmdb';
 
 interface MovieContextType {
   trendingMovies: Movie[];
